@@ -1,0 +1,140 @@
+[2024-07-14T18:45:01.184+0000] {processor.py:161} INFO - Started process (PID=1269) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:45:01.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:45:01.197+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:01.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:45:02.265+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:45:02.306+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:45:03.816+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:03.815+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:db_and_http
+[2024-07-14T18:45:03.833+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:03.833+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:db_and_http
+[2024-07-14T18:45:03.846+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:03.845+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:db_and_http
+[2024-07-14T18:45:03.848+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:03.847+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:45:03.871+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:03.871+0000] {dag.py:3118} INFO - Creating ORM DAG for db_and_http
+[2024-07-14T18:45:03.873+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:03.872+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:45:03.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 2.806 seconds
+[2024-07-14T18:45:34.737+0000] {processor.py:161} INFO - Started process (PID=1279) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:45:34.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:45:34.744+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:34.743+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:45:35.186+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:45:35.200+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:45:35.243+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:35.243+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:45:35.264+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:45:35.264+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:45:35.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.572 seconds
+[2024-07-14T18:46:05.862+0000] {processor.py:161} INFO - Started process (PID=1289) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:46:05.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:46:05.871+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:46:05.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:46:06.839+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:46:06.875+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:46:07.001+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:46:07.000+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:46:07.036+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:46:07.035+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:46:07.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 1.235 seconds
+[2024-07-14T18:46:38.044+0000] {processor.py:161} INFO - Started process (PID=1298) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:46:38.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:46:38.050+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:46:38.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:46:38.600+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:46:38.643+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:46:38.771+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:46:38.770+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:46:38.840+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:46:38.837+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:46:38.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.948 seconds
+[2024-07-14T18:47:09.786+0000] {processor.py:161} INFO - Started process (PID=1308) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:47:09.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:47:09.821+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:47:09.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:47:10.484+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:47:10.496+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:47:10.547+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:47:10.546+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:47:10.583+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:47:10.582+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:47:10.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.873 seconds
+[2024-07-14T18:47:41.254+0000] {processor.py:161} INFO - Started process (PID=1318) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:47:41.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:47:41.267+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:47:41.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:47:41.608+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:47:41.614+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:47:41.651+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:47:41.650+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:47:41.670+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:47:41.669+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:47:41.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.467 seconds
+[2024-07-14T18:48:12.271+0000] {processor.py:161} INFO - Started process (PID=1327) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:48:12.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:48:12.279+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:48:12.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:48:12.632+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:48:12.640+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:48:12.700+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:48:12.699+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:48:12.742+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:48:12.742+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:48:12.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.522 seconds
+[2024-07-14T18:48:43.599+0000] {processor.py:161} INFO - Started process (PID=1338) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:48:43.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:48:43.605+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:48:43.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:48:43.924+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:48:43.932+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:48:43.981+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:48:43.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:48:44.006+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:48:44.005+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:48:44.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.456 seconds
+[2024-07-14T18:49:14.544+0000] {processor.py:161} INFO - Started process (PID=1348) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:49:14.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:49:14.549+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:49:14.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:49:14.843+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:49:14.850+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:49:14.892+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:49:14.892+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:49:14.918+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:49:14.918+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:49:14.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.419 seconds
+[2024-07-14T18:49:45.729+0000] {processor.py:161} INFO - Started process (PID=1357) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:49:45.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:49:45.738+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:49:45.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:49:46.147+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:49:46.163+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:49:46.219+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:49:46.218+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:49:46.243+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:49:46.242+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:49:46.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.557 seconds
+[2024-07-14T18:50:16.496+0000] {processor.py:161} INFO - Started process (PID=1367) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:50:16.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:50:16.507+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:50:16.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:50:16.947+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:50:16.963+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:50:17.012+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:50:17.011+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:50:17.039+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:50:17.038+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:50:17.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.596 seconds
+[2024-07-14T18:50:47.941+0000] {processor.py:161} INFO - Started process (PID=1377) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:50:47.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:50:47.948+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:50:47.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:50:48.701+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:50:48.719+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:50:48.786+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:50:48.784+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:50:48.821+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:50:48.820+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:50:48.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.954 seconds
+[2024-07-14T18:51:19.430+0000] {processor.py:161} INFO - Started process (PID=1387) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:51:19.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:51:19.434+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:51:19.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:51:19.760+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:51:19.772+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:51:19.830+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:51:19.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:51:19.852+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:51:19.852+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:51:19.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.460 seconds
+[2024-07-14T18:51:50.781+0000] {processor.py:161} INFO - Started process (PID=1397) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:51:50.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:51:50.858+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:51:50.857+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:51:51.737+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:51:51.758+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:51:51.822+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:51:51.821+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:51:51.865+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:51:51.865+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:51:51.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 1.168 seconds
+[2024-07-14T18:52:22.312+0000] {processor.py:161} INFO - Started process (PID=1407) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:52:22.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:52:22.328+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:52:22.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:52:23.232+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:52:23.250+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:52:23.354+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:52:23.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:52:23.420+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:52:23.419+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:52:23.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 1.288 seconds
+[2024-07-14T18:52:53.763+0000] {processor.py:161} INFO - Started process (PID=1417) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:52:53.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:52:53.768+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:52:53.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:52:54.226+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:52:54.238+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:52:54.282+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:52:54.281+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:52:54.302+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:52:54.302+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:52:54.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.582 seconds
+[2024-07-14T18:53:24.742+0000] {processor.py:161} INFO - Started process (PID=1426) to work on /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:53:24.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/db_and_http_dag.py for tasks to queue
+[2024-07-14T18:53:24.747+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:24.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:53:25.021+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py:485 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2024-07-14T18:53:25.029+0000] {processor.py:840} INFO - DAG(s) 'db_and_http' retrieved from /opt/airflow/dags/db_and_http_dag.py
+[2024-07-14T18:53:25.075+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:25.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:53:25.100+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:25.099+0000] {dag.py:3954} INFO - Setting next_dagrun for db_and_http to None, run_after=None
+[2024-07-14T18:53:25.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/db_and_http_dag.py took 0.404 seconds
