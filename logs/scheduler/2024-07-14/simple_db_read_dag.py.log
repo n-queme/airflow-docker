@@ -1073,3 +1073,17 @@
 [2024-07-14T18:53:40.046+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:40.046+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-07-14T18:53:40.069+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:40.068+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_db_read to None, run_after=None
 [2024-07-14T18:53:40.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_db_read_dag.py took 0.433 seconds
+[2024-07-14T18:54:10.339+0000] {processor.py:161} INFO - Started process (PID=1444) to work on /opt/airflow/dags/simple_db_read_dag.py
+[2024-07-14T18:54:10.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_db_read_dag.py for tasks to queue
+[2024-07-14T18:54:10.386+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:10.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_db_read_dag.py
+[2024-07-14T18:54:10.898+0000] {processor.py:840} INFO - DAG(s) 'simple_db_read' retrieved from /opt/airflow/dags/simple_db_read_dag.py
+[2024-07-14T18:54:10.957+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:10.956+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:54:10.992+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:10.992+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_db_read to None, run_after=None
+[2024-07-14T18:54:11.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_db_read_dag.py took 0.816 seconds
+[2024-07-14T18:54:41.389+0000] {processor.py:161} INFO - Started process (PID=1454) to work on /opt/airflow/dags/simple_db_read_dag.py
+[2024-07-14T18:54:41.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_db_read_dag.py for tasks to queue
+[2024-07-14T18:54:41.399+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:41.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_db_read_dag.py
+[2024-07-14T18:54:41.660+0000] {processor.py:840} INFO - DAG(s) 'simple_db_read' retrieved from /opt/airflow/dags/simple_db_read_dag.py
+[2024-07-14T18:54:41.694+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:41.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:54:41.718+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:41.718+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_db_read to None, run_after=None
+[2024-07-14T18:54:41.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_db_read_dag.py took 0.367 seconds

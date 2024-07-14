@@ -4474,3 +4474,27 @@ File Path                                       PID    Runtime      # DAGs    # 
 /opt/airflow/dags/db_and_http_dag.py                                     1           0  0.43s           2024-07-14T18:53:25
 /opt/airflow/dags/simple_etl_dag.py                                      1           0  0.28s           2024-07-14T18:53:18
 ================================================================================
+[2024-07-14T18:54:14.971+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/simple_etl_dag.py                                      1           0  1.66s           2024-07-14T18:53:50
+/opt/airflow/dags/db_and_http_dag.py                                     1           0  1.26s           2024-07-14T18:53:56
+/opt/airflow/dags/simple_db_read_dag.py                                  1           0  0.88s           2024-07-14T18:54:11
+/opt/airflow/dags/firebase/firestore_config.py                           0           0  0.37s           2024-07-14T18:54:01
+================================================================================
+[2024-07-14T18:54:45.728+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/db_and_http_dag.py                                     1           0  0.49s           2024-07-14T18:54:27
+/opt/airflow/dags/simple_db_read_dag.py                                  1           0  0.39s           2024-07-14T18:54:41
+/opt/airflow/dags/firebase/firestore_config.py                           0           0  0.34s           2024-07-14T18:54:31
+/opt/airflow/dags/simple_etl_dag.py                                      1           0  0.15s           2024-07-14T18:54:21
+================================================================================
+[2024-07-14T18:55:00.998+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-07-14T18:55:01.036+0000] {manager.py:740} INFO - There are 4 files in /opt/airflow/dags

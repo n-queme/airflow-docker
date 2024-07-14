@@ -1645,3 +1645,20 @@ NameError: name 'EXTRACT_OP_DOC_MD' is not defined
 [2024-07-14T18:53:49.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_etl_dag.py for tasks to queue
 [2024-07-14T18:53:49.555+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:49.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_etl_dag.py
 [2024-07-14T18:53:49.713+0000] {processor.py:840} INFO - DAG(s) 'simple_etl' retrieved from /opt/airflow/dags/simple_etl_dag.py
+[2024-07-14T18:53:49.930+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:49.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:53:50.283+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:50.274+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_etl to None, run_after=None
+[2024-07-14T18:53:50.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_etl_dag.py took 1.275 seconds
+[2024-07-14T18:54:21.066+0000] {processor.py:161} INFO - Started process (PID=1445) to work on /opt/airflow/dags/simple_etl_dag.py
+[2024-07-14T18:54:21.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_etl_dag.py for tasks to queue
+[2024-07-14T18:54:21.071+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:21.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_etl_dag.py
+[2024-07-14T18:54:21.089+0000] {processor.py:840} INFO - DAG(s) 'simple_etl' retrieved from /opt/airflow/dags/simple_etl_dag.py
+[2024-07-14T18:54:21.130+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:21.129+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:54:21.151+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:21.150+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_etl to None, run_after=None
+[2024-07-14T18:54:21.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_etl_dag.py took 0.129 seconds
+[2024-07-14T18:54:51.825+0000] {processor.py:161} INFO - Started process (PID=1455) to work on /opt/airflow/dags/simple_etl_dag.py
+[2024-07-14T18:54:51.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_etl_dag.py for tasks to queue
+[2024-07-14T18:54:51.830+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:51.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_etl_dag.py
+[2024-07-14T18:54:51.847+0000] {processor.py:840} INFO - DAG(s) 'simple_etl' retrieved from /opt/airflow/dags/simple_etl_dag.py
+[2024-07-14T18:54:51.884+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:51.884+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-14T18:54:51.905+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:51.905+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_etl to None, run_after=None
+[2024-07-14T18:54:51.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_etl_dag.py took 0.117 seconds

@@ -808,3 +808,18 @@
 [2024-07-14T18:53:30.072+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:53:30.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/firebase/firestore_config.py
 [2024-07-14T18:53:30.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase/firestore_config.py
 [2024-07-14T18:53:30.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/firebase/firestore_config.py took 0.433 seconds
+[2024-07-14T18:54:00.716+0000] {processor.py:161} INFO - Started process (PID=1443) to work on /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:54:00.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/firebase/firestore_config.py for tasks to queue
+[2024-07-14T18:54:00.722+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:00.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:54:01.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:54:01.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/firebase/firestore_config.py took 0.346 seconds
+[2024-07-14T18:54:31.317+0000] {processor.py:161} INFO - Started process (PID=1453) to work on /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:54:31.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/firebase/firestore_config.py for tasks to queue
+[2024-07-14T18:54:31.322+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:54:31.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:54:31.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:54:31.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/firebase/firestore_config.py took 0.315 seconds
+[2024-07-14T18:55:02.088+0000] {processor.py:161} INFO - Started process (PID=1462) to work on /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:55:02.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/firebase/firestore_config.py for tasks to queue
+[2024-07-14T18:55:02.094+0000] {logging_mixin.py:188} INFO - [2024-07-14T18:55:02.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:55:02.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/firebase/firestore_config.py
+[2024-07-14T18:55:02.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/firebase/firestore_config.py took 0.318 seconds
